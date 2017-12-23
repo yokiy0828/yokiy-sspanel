@@ -3,7 +3,7 @@ DEBUG = False
 
 # 域名设置
 ALLOWED_HOSTS = [
-    'your.domain.com'
+    '47.96.154.113'
 ]
 
 # mysql 设置
@@ -13,7 +13,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'sspanel',
         'USER': 'root',
-        'PASSWORD': 'pass',
+        'PASSWORD': 'Wuqiaini.123',
         'HOST': '127.0.0.1',
         'PORT': '3306',
         'OPTIONS': {
@@ -45,7 +45,7 @@ GB = 1024 * 1024 * 1024
 DEFAULT_TRAFFIC = 5 * GB
 
 # 默认加密混淆协议
-DEFAULT_METHOD = 'aes-256-cfb'
+DEFAULT_METHOD = 'rc4-md5'
 DEFAULT_PROTOCOL = 'origin'
 DEFAULT_OBFS = 'plain'
 
@@ -59,8 +59,8 @@ USE_ALIPAY = True
 ALIPAY_TRADE_INFO = '谜之屋的{}元充值码'
 
 # 网站title
-TITLE = '谜之屋'
-SUBTITLE = '秘密的小屋'
+TITLE = 'Yokiy之屋'
+SUBTITLE = 'Yokiy的小屋'
 
 # 用户邀请返利比例
 INVITE_PERCENT = 0.2
@@ -71,4 +71,4 @@ INVITE_NUM = 5
 INVITEINFO = '邀请码实时更新，如果用完了进telegram群 群链接：https://t.me/Ehcobreakwa11'
 
 # 网站域名设置（请正确填写，不然订阅功能会失效：
-HOST = 'https://www.ehcozone.ml/'
+HOST = 'http://47.96.154.113'

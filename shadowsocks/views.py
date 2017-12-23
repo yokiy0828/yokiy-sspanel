@@ -39,7 +39,7 @@ from .payments import alipay
 
 def index(request):
     '''跳转到首页'''
-    return render(request, 'sspanel/index.html')
+    return render(request, 'sspanel/index2.html')
 
 
 def sshelp(request):
@@ -113,7 +113,7 @@ def register(request):
                 max_port_user = SSUser.objects.order_by('-port').first()
                 port = max_port_user.port + randint(2, 3)
                 ss_user = SSUser.objects.create(user=user, port=port)
-                return render(request, 'sspanel/index.html', context=context)
+                return render(request, 'sspanel/index2.html', context=context)
 
     else:
         form = RegisterForm()
@@ -186,7 +186,7 @@ def Logout_view(request):
         'registerinfo': registerinfo,
     }
 
-    return render(request, 'sspanel/index.html', context=context)
+    return render(request, 'sspanel/index2.html', context=context)
 
 
 @login_required

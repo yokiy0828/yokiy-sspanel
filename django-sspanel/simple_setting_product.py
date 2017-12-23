@@ -59,13 +59,10 @@ USE_ALIPAY = True
 ALIPAY_TRADE_INFO = '谜之屋的{}元充值码'
 
 # 网站title
-<<<<<<< HEAD
 TITLE = '网探'
 SUBTITLE = '网探的小屋'
-=======
 TITLE = 'Yokiy之屋'
 SUBTITLE = 'Yokiy的小屋'
->>>>>>> d9141f7971343e14a990b468c54961c40b99af89
 
 # 用户邀请返利比例
 INVITE_PERCENT = 0.2
